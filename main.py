@@ -2,7 +2,6 @@ from sensor.configuration.mongodb_connection import MongoDBClient
 from sensor.exception import SensorException
 from sensor.pipeline.training_pipeline import TrainPipeline
 from sensor.logger import logging
-import os,sys
 from sensor.pipeline import training_pipeline
 from sensor.utils.main_utils import read_yaml_file
 from sensor.constant.training_pipeline import SAVED_MODEL_DIR
@@ -79,5 +78,5 @@ def main():
 
 
 if __name__=="__main__":
-    
+
     app_run(app, host=APP_HOST, port=APP_PORT)
