@@ -5,4 +5,14 @@ scipy
 dill
 imblearn==0.0
 xgboost==1.6.2
+fastapi==0.78.0
+uvicorn==0.18.3
+dnspython==2.2.1
+evidently==0.1.58.dev0
+httptools==0.5.0
+imblearn==0.0
+watchfiles==0.17.0
+websockets==10.3
+wincertstore==0.2
+python-multipart
 -e .
